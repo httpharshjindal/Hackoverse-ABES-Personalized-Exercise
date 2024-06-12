@@ -1,0 +1,61 @@
+.dynamic-image{
+    width: 100%;
+    min-height: 45vh;
+    /* background-color: rgb(255, 213, 178); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5%;
+    padding: 0px 10px;
+}
+.dimgs{
+    width: 70px;
+    height: 300px;
+    border-radius: 15px;
+    transition: width .9s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+#expanded{
+    background-image: url("https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg");
+    background-size: cover;
+    width: 70%;
+}
+.dynamic-image :nth-child(2){
+    background-image: url("https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818931_54A6UVQiJIK8UHFWB0NTGSIKO9jyTbQP.jpg");
+    background-size: cover;
+}
+.dynamic-image :nth-child(3){
+    background-image: url("https://i.ytimg.com/vi/gey73xiS8F4/maxresdefault.jpg");
+    background-size:contain;
+    background-position: center;
+
+}
+.dynamic-image :nth-child(4){
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/216/929/desktop-wallpaper-men-body-fitness-1980x1080-for-your-mobile-tablet-body-fitness.jpg");
+    background-size: cover;
+}
+.dynamic-image :nth-child(5){
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-bodybuilder-showing-his-muscles-on-a-black-background-photo-image_2395269.jpg");
+    background-size: cover;
+}
+.dynamic-image :nth-child(n){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: inherit;
+}
+
+#expanded Link{
+    opacity: 1;
+    bottom: 30px;
+    top: 40px;
+}
+
+Link h2{
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: all .9s .2s ease-in-out;
+}

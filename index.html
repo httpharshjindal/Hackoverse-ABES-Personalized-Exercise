@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crossfit Club</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="exc-btn.css" />
+    <link rel="stylesheet" href="dynamic-image.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <div class="container flex">
+            <!-- Mobile Button -->
+            <div class="mobile-btn">
+                <ion-icon name="grid"></ion-icon>
+            </div>
+            <div class="logo">
+                <img src="./assets/logo.png" alt="" />
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="./workouts.html">Workouts</a></li>
+                <li class="nav-item"><a href="">Add to Later</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+            </ul>
+
+            <a href="login.html" class="btn">LogIn</a>
+        </div>
+    </div>
+    <div class="empty"></div>
+    <!-- End Menu -->
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container flex">
+            <div class="text">
+                <a href="./shoulder.html" class="exc-btn" id="btn-1">Traps</a>
+                <a href="./shoulder.html" class="exc-btn" id="btn-2">Shoulder</a>
+                <a href="./biceps.html" class="exc-btn" id="btn-3">Biceps</a>
+                <a href="./biceps.html" class="exc-btn" id="btn-4">ForeArm</a>
+                <a href="./chest.html" class="exc-btn" id="btn-5">Waist/Abs</a>
+                <a href="./chest.html" class="exc-btn" id="btn-6">Chest</a>
+                <a href="./biceps.html" class="exc-btn" id="btn-7">Quadriceps/Thighs</a>
+                <a href="./shoulder.html" class="exc-btn" id="btn-8">Back</a>
+                <a href="./biceps.html" class="exc-btn" id="btn-9">Triceps</a>
+                <a href="" class="exc-btn" id="btn-10">Hips</a>
+                <a href="" class="exc-btn" id="btn-11">Hamstrings</a>
+                <a href="" class="exc-btn" id="btn-12">Calves</a>
+                <!-- <a href="" class="exc-btn" id="btn-1"></a> -->
+                <!-- <a href="#" class="btn mt">Get Started Now</a> -->
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <div class="dynamic-image">
+        <div class="dimgs" id="expanded" onClick="dynamicImage()">
+        </div>
+        <div class="dimgs" onClick="dynamicImage()">
+        </div>
+        <div class="dimgs" onClick="dynamicImage()">
+        </div>
+        <div class="dimgs" onClick="dynamicImage()">
+        </div>
+        <div class="dimgs" onClick="dynamicImage()">
+        </div>
+    </div>
+
+    <!-- Why Us -->
+    <div class="section" id="why-us">
+
+        <div class="container flex">
+            <div class="text">
+                <h2 class=" primary mb">Get Your Personalized Plan</h2>
+                <a href="info.html" class="btn mt">Personalized Plan</a>
+            </div>
+
+            <div class="visual">
+                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/why-us.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- End Why Us -->
+
+    <!-- Remaining Workouts -->
+    <div class="section" id="explore">
+        <div class="container flex">
+            <div class="visual">
+                <img src="https://static.toiimg.com/photo/96125662.cms" alt="" />
+            </div>
+            <div class="text">
+                <h2 class="primary mb">
+                    Complete Your Remaining Workouts
+                </h2>
+                <p class="tertiary mb">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                    esse vitae ratione quos maiores eveniet temporibus illum! Eligendi
+                    amet officia unde sint totam ut optio. Molestiae, illo quia?
+                </p>
+
+                <a href="#" class="btn mt">Get Started Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Remaining Workouts -->
+
+
+
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="https://m.media-amazon.com/images/I/71zyqGLmVJL._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="">
+                <!-- <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/discount.png" alt="" /> -->
+            </div>
+            <div class="text" style="margin: 20px;">
+                <h2 class="primary mb">
+                    About Us
+                </h2>
+
+                <p class="tertiary mb">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maxime
+                    minus praesentium est et veniam voluptate alias excepturi minima
+                    placeat amet nostrum, eligendi, quod cum ducimus nesciunt ipsa eum,
+                    explicabo eaque obcaecati.
+                </p>
+
+                <!-- <a href="#" class="btn bt">Book Now</a> -->
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container flex">
+            <div class="text">
+                <h2 class="primary">
+                    Contact Us
+                </h2>
+
+                <br />
+                <br />
+                <br />
+
+                <div class="client">
+                    <!-- <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/client1.jpg" alt="" /> -->
+                    <h2 class="secondary">Crossfit Club</h2>
+                    <p class="tertiary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+                        quas voluptatem ad, repudiandae voluptates odio deleniti
+                        reiciendis in veniam quidem expedita maxime error fugit. Pariatur
+                        quasi sunt aut id. Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Neque, officiis.
+                    </p>
+                    <div class="icons" style="font-size: 30px;">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="visual">
+                <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/testimonial.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- End contact -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container flex">
+            <p class="tertiary">
+                &copy; Crossfit Club. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+
+<script>
+    const dynamicImage = () => {
+        let imgs = document.querySelectorAll('.dimgs');
+
+        Array.from(imgs).forEach((img) => {
+            img.addEventListener('click', () => {
+                imgs.forEach((img) => {
+                    img.style.width = "70px";
+                })
+                img.style.width = "70%";
+            })
+        })
+    }
+</script>
+
+</html>

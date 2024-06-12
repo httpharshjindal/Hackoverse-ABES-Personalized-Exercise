@@ -1,0 +1,98 @@
+.exc-btn {
+    padding: 2px 25px;
+    background: var(--clr-primary);
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.exc-btn:hover {
+    background: #165f56;
+    transition: 0.3s linear;
+}
+
+.exc-btn-2 {
+    font-size: 35px;
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s linear;
+}
+
+.exc-btn-2:hover {
+    color: #29a396;
+}
+
+#btn-1 {
+    position: absolute;
+    left: 295px;
+    top: 290px;
+}
+
+#btn-2 {
+    position: absolute;
+    left: 200px;
+    top: 330px;
+}
+
+#btn-3 {
+    position: absolute;
+    left: 290px;
+    top: 370px;
+}
+
+#btn-4 {
+    position: absolute;
+    left: 200px;
+    top: 420px;
+}
+
+#btn-5 {
+    position: absolute;
+    left: 260px;
+    top: 550px;
+}
+
+#btn-6 {
+    position: absolute;
+    left: 645px;
+    top: 330px;
+}
+
+#btn-7 {
+    position: absolute;
+    left: 600px;
+    top: 540px;
+}
+
+#btn-8 {
+    position: absolute;
+    left: 1030px;
+    top: 305px;
+}
+
+#btn-9 {
+    position: absolute;
+    left: 1110px;
+    top: 350px;
+}
+
+#btn-10 {
+    position: absolute;
+    left: 1035px;
+    top: 470px;
+}
+
+#btn-11 {
+    position: absolute;
+    left: 1100px;
+    top: 550px;
+}
+
+#btn-12 {
+    position: absolute;
+    left: 1035px;
+    top: 630px;
+}

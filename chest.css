@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    background-color: #0A1818;
+}
+header{
+    position: fixed;
+    background-color: #0A1818;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+header a{
+    text-decoration: none;
+}
+header a i{
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+}
+.empty{
+    height: 80px;
+}
+
+.workout-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 40px ;
+    box-shadow: 10px 8px 8px rgba(128, 128, 128, 0.314);
+}
+.card img{
+    height: 200px;
+    width: 100%;
+}
